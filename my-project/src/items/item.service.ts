@@ -55,7 +55,6 @@ export class ItemsService implements OnModuleInit {
             (item) => item?.quantity,
           ),
         };
-        console.log(JSON.stringify(res));
         results += JSON.stringify(res);
       }
 
